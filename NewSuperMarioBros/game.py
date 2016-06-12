@@ -1003,7 +1003,7 @@ class Fireball(Enemy):
         if int(self.frame/2)%len(self.leftpics) == 4:
             del game.characters[game.characters.index(self)]
             
-class PowerUp(Enemy): #not actually enemy, just similiar class style
+class PowerUp(Enemy): #not actually enemy, just similar class style
     
     def move(self):
         if self.peak<=8:
